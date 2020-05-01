@@ -5,6 +5,8 @@
 #
 # Major thanks to: https://medium.com/@labappengineering/ubuntu-20-04-on-hyper-v-8888fe3ced64
 #
+# After you've run your scripts, shut down your VM. On your host machine in a powershell prompt, execute this command:
+# `Set-VM -VMName <your_vm_name>  -EnhancedSessionTransportType HvSocket`
 
 ###############################################################################
 # Use HWE kernel packages
